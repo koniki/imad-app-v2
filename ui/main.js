@@ -1,9 +1,14 @@
 console.log('Loaded!');
 var img=document.getElementById('img');
+var movie= 0;
 function move()
 {
-        var movie= img.style.marginLeft;
-        movie= movie+ 10+'px';
+        //var movie= img.style.marginLeft;
+        //movie= movie+ 10+'px';
+        
+        movie=movie+10;
+        img.style.marginLeft=movie+'px';
+        
         
         
         
