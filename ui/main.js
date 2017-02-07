@@ -1,7 +1,7 @@
 console.log('Loaded!');
 var img = document.getElementById('img');
 var margin=0;
-funtion move()
+function move()
 {
      margin=margin+10;
     img.style.margin= margin+'px';
@@ -10,7 +10,7 @@ funtion move()
     
     
 }
-img.onclick=funtion()
+img.onclick=function()
 {
    var interval = setInterval(move,10);
     
