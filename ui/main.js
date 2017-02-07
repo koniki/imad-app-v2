@@ -5,7 +5,8 @@ function move()
 {
         var movie= img.style.marginLeft;
         //movie= movie+ 10+'px';
-        alert(movie);
+        //alert(movie);
+        alert('fuckme like you do'+movie);
         
         //movie=movie+10;
         //img.style.marginLeft=movie+'px';
