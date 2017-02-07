@@ -1,9 +1,9 @@
 console.log('Loaded!');
-var img = document.getElementById('img');
-img.onclick=function()
+var im= document.getElementById('img');
+im.onclick=function()
 {
    
-    img.style.marginLeft('100px');
+    im.style.marginLeft('100px');
     
     
 };
