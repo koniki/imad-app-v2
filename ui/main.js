@@ -1,9 +1,9 @@
 console.log('Loaded!');
-
+var im = getElementById('img');
 im.onclick=function()
 {
    
- document.getElementById('img').style.marginLeft="50px";
+ alert('fuck you nigga');
     
     
 };
