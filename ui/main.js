@@ -5,7 +5,7 @@ var counter=0;
 click.onclick=function()
 {
 // make a request to webpage
-var request =new XMLHttprequest();
+var request =new XMLHttpRequest();
 request.onreadystatechange=function()
 {
   if(request.readyState===XMLHttpResponse.DONE)
