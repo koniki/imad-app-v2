@@ -14,7 +14,7 @@ request.onreadystatechange=function()
       {
           var counter= request.responsetext;
            
- document.getElementById('span').textContent=counter;
+ document.getElementById('span').innerHTML=counter;
  
 // or apply this code
 // span.innerHTML=counter.toString();
