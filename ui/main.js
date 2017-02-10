@@ -1,7 +1,6 @@
 //counter code
 var click= document.getElementById('nik');
 
-var counter=0;
 click.onclick=function()
 {
 // create  request to webpage
