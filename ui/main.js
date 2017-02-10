@@ -27,7 +27,9 @@ request.onreadystatechange=function()
     
 };
 // make the request
-request.open('GET','http://koniki.imad.hasura-app.io');
+request.open('GET','http://koniki.imad.hasura-app.io/counter','true');
+
+request.send(NULL);
 
     
     
