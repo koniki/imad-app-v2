@@ -13,8 +13,10 @@ request.onreadystatechange=function()
       if(request.status===200)
       {
           var counter= request.responsetext;
-           
- document.getElementById('span').innerHTML=counter.toString();  // to convert to tostring
+          
+ var span=document.getElementById('span');
+ 
+ span.innerHTML=counter.toString();  // to convert to tostring
  
 // or apply this code
 // span.innerHTML=counter.toString();
