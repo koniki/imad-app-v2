@@ -8,7 +8,7 @@ click.onclick=function()
 var request =new XMLHttpRequest();
 request.onreadystatechange=function()
 {
-  if(request.readyState===XMLHttpResponse.DONE)
+  if(request.readyState===XMLHttpRequest.DONE)
   {
       if(request.status===200)
       {
@@ -26,9 +26,9 @@ request.onreadystatechange=function()
     
 };
 // make the request
-request.open('GET','http://koniki.imad.hasura-app.io/counter','true');
+request.open('GET','http://koniki.imad.hasura-app.io/counter',true);
 
-request.send(NULL);
+request.send(null);
 
     
     
