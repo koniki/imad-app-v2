@@ -1,27 +1,12 @@
-console.log('Loaded!');
-var img=document.getElementById('img');
-//var movie= 0;
-function move()
+//counter code
+var click= document.getElementById('nik');
+
+var counter=0;
+click.onclick=function()
 {
-        var movie= img.style.marginLeft;
-        //movie= movie+ 10+'px';
-        //alert(movie);
-        //alert('fuckme like you do'+movie);
-        console.log('fuck'+ movie);
-        
-        //movie=movie+10;
-        //img.style.marginLeft=movie+'px';
-        
-        
-        
-        
-}
-
-
-             img.onclick=function(){ 
-                    
-                    //img.style.marginLeft='100px';   
-                //var    interval= setInterval(move,10);
-                move();
-                    
-                    };
+      counter=counter+1;
+ document.getElementById('span').textContent=counter;
+ 
+    
+    
+};
