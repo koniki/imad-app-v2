@@ -4,7 +4,8 @@ var click= document.getElementById('nik');
 var counter=0;
 click.onclick=function()
 {
-// make a request to webpage
+// create  request to webpage
+// what to do after the request
 var request =new XMLHttpRequest();
 request.onreadystatechange=function()
 {
@@ -25,6 +26,8 @@ request.onreadystatechange=function()
   }
     
 };
+// make the request
+request.open('GET','http://koniki.imad.hasura-app.io');
 
     
     
